@@ -41,6 +41,26 @@ h2 {
   line-height: 1.5;
   font-size: 24px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bolder;
+}
+.about-section img {
+  width: 500px;
+  height: 400px;
+  border-radius: 4px;
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -77,5 +97,9 @@ h2 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0px;
   }
 }
