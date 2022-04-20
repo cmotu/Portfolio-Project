@@ -41,10 +41,10 @@ h2 {
   line-height: 1.5;
   font-size: 24px;
 }
-.content-container {
+.content {
   padding: 160px 20px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
@@ -53,11 +53,15 @@ h2 {
   font-family: var(--default-font-family);
   font-weight: bolder;
 }
-.content img {
-  width: 500px;
-  height: 400px;
-  border-radius: 4px;
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
 }
+.content p {
+  font-size: 14px;
+}
+
 .content {
   margin: 30px;
 }
