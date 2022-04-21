@@ -61,7 +61,28 @@ h2 {
 .content p {
   font-size: 14px;
 }
-
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 42px;
+}
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #272142;
+  transition: all 150ms ease-in-out;
+}
+nav a:hover,
+nav li.active {
+  color: var(--branding-color);
+}
 .content {
   margin: 30px;
 }
@@ -87,11 +108,13 @@ h2 {
     line-height: 2;
   }
   h2 {
-    font-size: 44px;
+    font-size: 42px;
     text-align: center;
   }
+
   p {
-    text-align: center;
+    margin-right: 0px;
+    padding: 0px;
   }
   .hero {
     background: var(--secondary-color);
@@ -105,5 +128,8 @@ h2 {
   .content {
     text-align: center;
     padding: 0px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
