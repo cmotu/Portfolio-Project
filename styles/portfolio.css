@@ -22,6 +22,10 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
 }
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
 .project-description {
   padding: 120px 60px;
 }
@@ -102,6 +106,38 @@ nav li.active {
   line-height: 27px;
   padding: 15px 30px;
 }
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer.email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  line-height: 1.5;
+}
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box p {
+  margin: 0px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -131,5 +167,11 @@ nav li.active {
   }
   nav a {
     font-size: 14px;
+  }
+  .contact-box {
+    padding: 30px;
+  }
+  h3 {
+    font-size: 18px;
   }
 }
